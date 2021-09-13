@@ -1,0 +1,213 @@
+*{
+    font-family: "roboto", sans-serif;
+}
+h1, h2, h3{
+    margin-bottom: 0;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    height: 50px;
+    background: #212121;
+    margin: 0;
+    
+}
+
+header{
+    position: relative;
+    height: 50px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;  
+    margin: 0;
+    list-style-type:none;
+}
+
+.menu .menu_link{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    height: 84px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo{
+    min-width: 100%;
+    display: block;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official{
+    margin-top: 6px;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.subheader .subheader_call{
+    margin-top: 18px;  
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone{
+    
+    margin-top: 8px;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.subheader .subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+.promo{
+    /* position: relative; */
+    width: 100%;
+    z-index: 1;
+    min-height: 799px;
+    background: url(../img/bg/uber_bg.jpg) center center/cover no-repeat;
+    padding: 151px 0 135px 0;
+}
+
+.promo .promo_header{
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .promo_subheader{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .promo_discr{   
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+
+.promo .promo_btn{
+    display: block;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    margin: 118px auto;
+
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons{
+    min-width: 900px;
+    padding: 71px 0 65px 0;
+}
+
+.label{
+    width: 112px;
+    height: 24px;
+    padding: 5px 11px 6px 12px;
+    background-color: #000;
+    margin: 0 auto;    
+    font-size: 11px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.title{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+    margin: 38px 0 5px 0;
+}
+
+.reasons .reasons_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.reasons .reasons_block .reasons_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr{
+        width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_title{
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #1eacc7;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #202020;
+    }
+				
